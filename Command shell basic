@@ -1,0 +1,27 @@
+4) On utilise la commande 'ls-lrt' pour afficher les fichiers et en tirer la taille des fichiers. Sardar : 4096B, READ.ME : 31B, Microsoft : 34359B, Answering-Machine.txt : 70408B
+5) La taille du fichier sardar n'est pas correcte car elle n'affiche pas avec la taille des fichiers cachés
+6) La commande "du" permet de déterminer la taille d'un fichier ou d'un répertoire en affichant la somme des tailles de tous les fichiers qu'il contient. La commande "ls", quant à elle, affiche les attributs de fichier, y compris la taille du fichier en octets.
+7) Inode Microsoft : 1716387
+8) Il n'y a pas de fichier caché dans Microsoft, mais dans le fichier lab3-main il y en a. On peut le déterminer par le commande 'ls -a'
+9) Pour afficher les fichiers les plus anciens en premiers, on peut utiliser la commande "ls -ltr"
+10) Pour afficher les fichiers du plus grands au plus petit il faut utiliser la commande "ls -ls"
+11) Il faut utiliser la commander "cat answering-machine.txt" pour pouvoir y afficher son contenu
+12) Il faut utiliser la commande "less answering-machine.txt" et appuyer sur la touche 'q' pour quitter.
+13) Pour afficher avec vim il faut utiliser la commande "vim answering-machine.txt"
+14) Appuyez sur la touche "Shift" + "g" pour aller à la fin du fichier et ansuite appuyez sur la touche "i" pour entrer en mode insertionet tapez "welcome systemes communicants et "echap" 
+15) On recherche le mot par la commande "/gravelly' et on le supprime via la touche 'x'
+16) On sauvegarde et on quitte par la commande ':wq' 
+19) On utilise 'g' pour le mode de recherche en arrière
+20) Pour afficher les 20 dernières ligne, on peut utiliser la commande "tail -n 20 sardar3.txt"
+24) Il faut utiliser la commande "mv .lightbulb lightbulb" pour modifier son nom pour qu'il ne soit plus caché
+25) Pour entrer dans sardar, il faut utiliser la commande "cd sardar"
+26) On utilise "mv sardar3.txt ../lab3-main" pour déplacer le fichier. 
+27) On utilise la commande " cd .." pour retourner au répertoire parent
+28) On utilise la commande " rm -f Microsoft " pour supprimer Microsoft une bonne fois pour toutes. 
+29) "mkdir archive" pour créer le répertoire et "cp -r * archive/" pour copier tous les fichiers dedans
+30) On utilise "ln -s ../sardar/file1.txt file1_link" pour créer des liens symboliques
+31) Les liens sont faciles à identifier grâce à leurs noms
+32) En supprimant Sardar2.txt, on supprime aussi ceux du lien symbolique
+33) On utilise "chmod 444 sardar/sardar1.txt" pour modifier les droits d'écriture et "echo "Master SC" >> sardar/sardar1.txt" pour modifier. Cependant une message d"erreur s"'affiche car on est en mode lecture seule. 
+36) "tar -cvjf lab.tar.bz2 lab3-main/" pour créer une archive compresser du répertoire
+37) On utilise "tar -tzvf lab.tar.bz2" pour afficher sans décompresser
